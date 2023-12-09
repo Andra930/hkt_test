@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Cautare</title>
+    <link rel="stylesheet" href="styleSearch.css" />
+  </head>
+  <body>
+    <div class="box">
+      <form action="#">
+        <div class="input_box">
+          <input type="text" placeholder="Cautare..." required />
+          <div class="selection">
+            <p>Documente</p>
+            <span></span>
+          </div>
+
+          <div class="categories">
+            <p class="option">Documente</p>
+            <p class="option">Imagini</p>
+            <p class="option">Audio</p>
+            <p class="option">Video</p>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <img src="img/webIcon.png" class="webIcon" alt="Icon with StudyPaws" />
+    </div>
+  </body>
+  <script>
+    let selection = document.querySelector(".selection");
+    let selectedText = selection.querySelector("p");
+    let categories = document.querySelector(".categories"); // Change this line
+    let options = document.querySelectorAll(".categories p"); // Change this line
+
+    selection.onclick = function () {
+      console.log("Selection clicked;");
+      categories.classList.toggle("active");
+    };
+
+    options.forEach((option) => {
+      option.onclick = function () {
+        console.log("Option clicked");
+        selectedText.innerHTML = option.innerHTML;
+        categories.classList.remove("active");
+      };
+    });
+  </script>
+</html>

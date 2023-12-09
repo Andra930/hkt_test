@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #343a40;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.selectareDomenii {
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  font-size: 64px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* .btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  display: inline-block;
+  border-radius: 1000px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #099268;
+} */
+
+a.homePage {
+  text-decoration: none;
+  font-size: 24px;
+  color: #333;
+  padding: 10px 20px;
+  background-color: #339af0;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+a.homePage:hover {
+  background-color: #339af0;
+}
+
+.toateDomeniile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.btn {
+  font-size: 32px;
+  padding: 16px 32px;
+
+  box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.6);
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #862e9c;
+}
+
+.btn {
+  background-color: #ae3ec9;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  display: inline-block;
+  border-radius: 1000px;
+}
+
+.art:hover,
+.art:active {
+  background-color: #c92a2a;
+  cursor: pointer;
+}
+
+.art {
+  background-color: #fa5252;
+}
+
+.tech:hover,
+.tech:active {
+  background-color: #1864ab;
+  cursor: pointer;
+}
+
+.tech {
+  background-color: #228be6;
+}
+
+.design:hover,
+.design:active {
+  background-color: #a61e4d;
+  cursor: pointer;
+}
+
+.design {
+  background-color: #e64980;
+}
+
+.math:hover,
+.math:active {
+  background-color: #e67700;
+  cursor: pointer;
+}
+
+.math {
+  background-color: #fab005;
+}
+
+.health:hover,
+.health:active {
+  background-color: #5c940d;
+  cursor: pointer;
+}
+
+.health {
+  background-color: #82c91e;
+}
+
+.music:hover,
+.music:active {
+  background-color: #0b7285;
+  cursor: pointer;
+}
+
+.music {
+  background-color: #15aabf;
+}
+
+.history:hover,
+.history:active {
+  background-color: #3d2b1f;
+  cursor: pointer;
+}
+
+.history {
+  background-color: #4b3621;
+}
+
+.buisness:hover,
+.buisness:active {
+  background-color: #212529;
+  cursor: pointer;
+}
+
+.buisness {
+  background-color: #868e96;
+}
